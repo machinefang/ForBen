@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0CF909FD1CD64CF400EB7DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF909FC1CD64CF400EB7DFF /* AppDelegate.swift */; };
-		0CF909FF1CD64CF400EB7DFF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF909FE1CD64CF400EB7DFF /* FirstViewController.swift */; };
-		0CF90A011CD64CF400EB7DFF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF90A001CD64CF400EB7DFF /* SecondViewController.swift */; };
+		0CF909FF1CD64CF400EB7DFF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF909FE1CD64CF400EB7DFF /* HomeViewController.swift */; };
+		0CF90A011CD64CF400EB7DFF /* TakingPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF90A001CD64CF400EB7DFF /* TakingPhotoViewController.swift */; };
 		0CF90A041CD64CF400EB7DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF90A021CD64CF400EB7DFF /* Main.storyboard */; };
 		0CF90A061CD64CF400EB7DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF90A051CD64CF400EB7DFF /* Assets.xcassets */; };
 		0CF90A091CD64CF400EB7DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF90A071CD64CF400EB7DFF /* LaunchScreen.storyboard */; };
 		0CF90A141CD64CF400EB7DFF /* BenLostWeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF90A131CD64CF400EB7DFF /* BenLostWeightTests.swift */; };
 		0CF90A1F1CD64CF400EB7DFF /* BenLostWeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF90A1E1CD64CF400EB7DFF /* BenLostWeightUITests.swift */; };
+		0CF90A2D1CD64F5900EB7DFF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF90A2C1CD64F5900EB7DFF /* ProfileViewController.swift */; };
+		0CF90A2F1CD65A5E00EB7DFF /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF90A2E1CD65A5E00EB7DFF /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* Begin PBXFileReference section */
 		0CF909F91CD64CF400EB7DFF /* BenLostWeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenLostWeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF909FC1CD64CF400EB7DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CF909FE1CD64CF400EB7DFF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0CF90A001CD64CF400EB7DFF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0CF909FE1CD64CF400EB7DFF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0CF90A001CD64CF400EB7DFF /* TakingPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakingPhotoViewController.swift; sourceTree = "<group>"; };
 		0CF90A031CD64CF400EB7DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CF90A051CD64CF400EB7DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CF90A081CD64CF400EB7DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		0CF90A1A1CD64CF400EB7DFF /* BenLostWeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenLostWeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF90A1E1CD64CF400EB7DFF /* BenLostWeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenLostWeightUITests.swift; sourceTree = "<group>"; };
 		0CF90A201CD64CF400EB7DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CF90A2C1CD64F5900EB7DFF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0CF90A2E1CD65A5E00EB7DFF /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				0CF909FC1CD64CF400EB7DFF /* AppDelegate.swift */,
-				0CF909FE1CD64CF400EB7DFF /* FirstViewController.swift */,
-				0CF90A001CD64CF400EB7DFF /* SecondViewController.swift */,
+				0CF909FE1CD64CF400EB7DFF /* HomeViewController.swift */,
+				0CF90A001CD64CF400EB7DFF /* TakingPhotoViewController.swift */,
 				0CF90A021CD64CF400EB7DFF /* Main.storyboard */,
 				0CF90A051CD64CF400EB7DFF /* Assets.xcassets */,
 				0CF90A071CD64CF400EB7DFF /* LaunchScreen.storyboard */,
 				0CF90A0A1CD64CF400EB7DFF /* Info.plist */,
+				0CF90A2C1CD64F5900EB7DFF /* ProfileViewController.swift */,
+				0CF90A2E1CD65A5E00EB7DFF /* PhotoViewController.swift */,
 			);
 			path = BenLostWeight;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 				TargetAttributes = {
 					0CF909F81CD64CF400EB7DFF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JQDDH6SA97;
 					};
 					0CF90A0E1CD64CF400EB7DFF = {
 						CreatedOnToolsVersion = 7.3;
@@ -259,9 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF90A011CD64CF400EB7DFF /* SecondViewController.swift in Sources */,
+				0CF90A011CD64CF400EB7DFF /* TakingPhotoViewController.swift in Sources */,
 				0CF909FD1CD64CF400EB7DFF /* AppDelegate.swift in Sources */,
-				0CF909FF1CD64CF400EB7DFF /* FirstViewController.swift in Sources */,
+				0CF90A2D1CD64F5900EB7DFF /* ProfileViewController.swift in Sources */,
+				0CF909FF1CD64CF400EB7DFF /* HomeViewController.swift in Sources */,
+				0CF90A2F1CD65A5E00EB7DFF /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,9 +414,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BenLostWeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = XINFANG.BenLostWeight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinfang.benloseweight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -416,9 +427,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BenLostWeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = XINFANG.BenLostWeight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinfang.benloseweight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
